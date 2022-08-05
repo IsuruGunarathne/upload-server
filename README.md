@@ -1,4 +1,4 @@
-# Upload Derver
+# Upload Server
 A python based file upload server
 
 ## Requrements

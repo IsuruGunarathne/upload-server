@@ -15,6 +15,9 @@ echo * Files in the Uploads folder are accessible on the local network
 echo --------------------------------------------------------------------------
 echo[
 
+mkdir Uploads 
+Rem creating an Uploads directory if it doesn't exist. 
+
 python get-pip.py
 
 cd Uploads

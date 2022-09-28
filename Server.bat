@@ -1,10 +1,10 @@
 @echo off
 
-title Python upload server 1.0
+title Python upload server 1.1
 
 echo --------------------------------------------------------------------------
 echo[
-echo 			      Python upload server
+echo 			      Python upload server v1.1
 echo[
 echo --------------------------------------------------------------------------
 echo[
@@ -14,10 +14,13 @@ echo * Files in the Uploads folder are accessible on the local network
 
 echo --------------------------------------------------------------------------
 echo[
+echo Making Uploads folder
+echo[
 
 mkdir Uploads 
 Rem creating an Uploads directory if it doesn't exist. 
-
+echo Setup in progress, please wait
+echo[
 python get-pip.py
 
 cd Uploads
